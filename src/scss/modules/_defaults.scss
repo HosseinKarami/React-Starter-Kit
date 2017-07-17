@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html {
+  font-size: 100%;
+  background: #fff;
+}
+@keyframes fadeDown{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}
+body {
+  font: 400 16px/1.6 'Helvetica Neue', Helvetica, Arial;
+  color: #444;
+  transition: all ease-out 600ms;
+  animation: fadeDown 1s ease;
+}
+body,html{
+	min-height: 100vh;
+}

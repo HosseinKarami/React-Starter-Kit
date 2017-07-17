@@ -1,0 +1,23 @@
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+code {
+  background-color: whitesmoke;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 1em; }

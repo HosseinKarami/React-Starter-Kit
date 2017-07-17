@@ -1,0 +1,48 @@
+/*
+ * 320 - 480 device
+ */
+ @mixin phone{
+  @media only screen and (min-device-width: 20em) and (max-device-width: 30em) {
+    @content;
+  }
+ }
+
+/*
+ * 481 +
+ */
+ @mixin tablet{
+  @media only screen and (min-width: 30.1em) {
+    @content;
+  }
+ }
+
+/*
+ * 768 +
+ */
+ @mixin desktop{
+  @media only screen and (min-width: 48em) {
+    @content;
+  }
+ }
+
+/*
+ * 1000 +
+ */
+ @mixin largedesktop{
+  @media only screen and (min-width: 62.5em) {
+    @content;
+  }
+ }
+
+/*
+ * 1300 +
+ */
+ @mixin biglargedesktop{
+  @media only screen and (min-width: 81.25em)  {
+    @content;
+  }
+ }
+
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+
+}
