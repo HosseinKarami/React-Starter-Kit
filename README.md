@@ -46,14 +46,13 @@ ReactStarterKit
 ├── postcss.config.js
 ├── package.json
 ├── .gitignore
-├── dist
-│   └── app
-│       ├── assets
-│       │   ├── css
-│       │   ├── img
-│       │   └── js
-│       ├── favicon.ico
-│       └── index.html
+├── app
+│   ├── assets
+│   │   ├── css
+│   │   ├── img
+│   │   └── js
+│   ├── favicon.ico
+│   └── index.html
 │   
 └── src
     └── app

@@ -7,7 +7,7 @@
     "start": "yarn build",
     "build": "webpack-dev-server --open ",
     "build:prod": "webpack -p",
-    "deploy": "yarn build:prod && gh-pages -d build"
+    "deploy": "yarn build:prod && gh-pages -d app"
   },
   "author": "Hossein Karami",
   "url": "https://hosseinkarami.com",

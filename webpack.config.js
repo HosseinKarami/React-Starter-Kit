@@ -21,12 +21,12 @@ var extractPlugin = new ExtractTextPlugin({
 module.exports = {
   entry: './src/app/index.js',
     output: {
-        path: path.resolve(__dirname, 'dist/app'),
+        path: path.resolve(__dirname, 'app'),
         filename: 'assets/js/bundle.js',
         publicPath: '/'
     },
     devServer: {
-      contentBase: path.join(__dirname, "dist/app"),
+      contentBase: path.join(__dirname, "app"),
       compress: true,
       port: 9000,
       historyApiFallback: true
