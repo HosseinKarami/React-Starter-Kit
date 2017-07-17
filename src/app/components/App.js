@@ -12,7 +12,7 @@ export class App extends React.Component {
           <iframe src="https://ghbtns.com/github-btn.html?user=HosseinKarami&repo=React-Starter-Kit&type=fork&count=true" frameborder="0" scrolling="0" width="90px" height="20px"></iframe>
        </div>
         <p className="App-intro">
-          To get started, Fork from top and then edit <code>src/components/App.js</code> and save to reload.
+          To get started, Fork it and then edit <code>src/components/App.js</code> and save to reload.
         </p>
       </div>
     );
